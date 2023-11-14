@@ -5,6 +5,9 @@
   "author": "Facu Luna <nfacundoluna@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^3.0.1"
