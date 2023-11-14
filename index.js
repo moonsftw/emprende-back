@@ -1,4 +1,4 @@
-const importadoDeAnother = require("./another");
+//const importadoDeAnother = require("./another");
 
 const http = require("http");
 

@@ -1,0 +1,12 @@
+{
+  "name": "emprende-full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Facu Luna <nfacundoluna@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
