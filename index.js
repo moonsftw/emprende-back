@@ -9,6 +9,8 @@ function requestController() {
    // console.log("Hola mundo")
 }
 
-const server = http.createServer(requestController);
+//const server = http.createServer(requestController);
 
-server.listen(4000);
+//server.listen(4000);
+const PORT = process.env.PORT
+server.listen(PORT)
