@@ -89,7 +89,7 @@ app.put("/api/tasks/:id", function(req, res) {
     Task.findByIdAndUpdate(id, {
         name: body.text
     }).then((updatedTask) => {
-        res.status(200).json({ ok: true, message: "Tarea editada con éxito", data: updatedTask })
+        res.status(200).json({ ok: true, message: "Tarea editada con éxito!", data: updatedTask })
     }).catch((err) => {
         res.status(400).json({ ok: false, message: "Error al editar la tarea"})
     })
